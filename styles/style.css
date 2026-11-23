@@ -319,7 +319,9 @@ section:last-child {
 
 .footer__links-list-item a {
   text-decoration: underline;
-  text-underline-offset: 4px; 
+  text-underline-offset: 4px;
+  line-height: 9.5px;
+  display: block;
 }
 
 .footer__links-list {
@@ -333,16 +335,6 @@ section:last-child {
 .footer__links-list-item_no-bullit {
   list-style-type: none; 
   text-decoration: none;
-}
-
-.footer__links-list-item a {
-  line-height: 9.5px;
-  display: block;
-}
-
-.footer__img {
-  width: 48px;
-  height: 48px;
 }
 
 .footer__links-list-item {
